@@ -6,6 +6,7 @@ I. Introdução
 
 Projeto de análise estatística e machine learning em Linguagem R para dados relativos à saúde de pacientes.
 
+
 II. Escopo
 
 . Criação de dataset fictício (arquivo .csv gerado pelo ChatGPT)
