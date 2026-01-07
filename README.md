@@ -1,55 +1,90 @@
-# Projeto_Saude
+# 🏥 Projeto Saúde – Análise Estatística e Machine Learning em R
 
-## VISÃO GERAL
+## 📌 Contexto de Negócio
+Projetos de análise de dados na área da saúde são fundamentais para apoiar diagnósticos, identificar padrões clínicos e auxiliar a tomada de decisão baseada em evidências. Para isso, é essencial aplicar corretamente técnicas estatísticas e avaliar cuidadosamente modelos preditivos.
 
-### I. Introdução
+Este projeto simula um cenário de análise de dados de pacientes, com foco na **análise estatística completa** e na **avaliação de modelos de machine learning**, seguindo boas práticas amplamente utilizadas em projetos analíticos.
 
-Projeto de análise estatística e machine learning em Linguagem R para dados relativos à saúde de pacientes.
+---
 
+## 🎯 Objetivos do Projeto
+- Analisar dados de saúde de pacientes a partir de um dataset em formato CSV  
+- Realizar ETL e tratamento dos dados em linguagem R  
+- Aplicar técnicas estatísticas descritivas e inferenciais  
+- Construir e avaliar modelos de machine learning  
+- Comparar desempenho dos modelos e identificar possíveis problemas de overfitting  
 
-### II. Escopo
+---
 
-. Criação de dataset fictício (arquivo .csv gerado pelo ChatGPT)
+## 📊 Base de Dados
+O projeto utiliza um **dataset fictício**, em formato CSV, contendo informações relacionadas à saúde de pacientes.
 
-. Análise exploratória e ETL
+As etapas iniciais envolveram:
+- Geração do dataset  
+- Importação dos dados no R  
+- Limpeza, padronização e preparação para análise  
 
-. Análise estatística completa - Medidas de Tendência Central, Separatrizes, Dispersão, Coeficientes, Testes Estatísticos,
-Correlações, Teste ANOVA, Dunn's Test, Post-Hoc
+---
 
-. Gráficos: boxplots, histogramas, Q-Q Plot, ggplot2
+## 🔎 Processamento e Análise de Dados
+As principais atividades realizadas foram:
 
-. Machine Learning - Árvore de Decisão e Random Forest; Avaliação dos modelos - Cross Validation, Confusion Matrix,
-Overfitting
+- Análise exploratória dos dados  
+- Processo de ETL (extração, transformação e carregamento)  
+- Análise estatística completa, incluindo:
+  - Medidas de tendência central  
+  - Medidas de dispersão  
+  - Separatrizes  
+  - Correlações  
+  - Testes estatísticos  
+  - ANOVA, teste de Dunn e análises post-hoc  
+- Visualizações estatísticas utilizando:
+  - Histogramas  
+  - Boxplots  
+  - Q-Q Plot  
+  - Biblioteca ggplot2  
 
+Essa etapa fornece uma compreensão aprofundada do comportamento e das características dos dados.
 
-### III. Skills e Conhecimentos empregados
+---
 
-As seguintes ferramentas/conhecimentos foram utilizadas neste projeto:
+## 🤖 Machine Learning
+Foram desenvolvidos e avaliados modelos de machine learning com foco em classificação:
 
-• Sublime Text
+- Árvore de Decisão  
+- Random Forest  
 
-• RStudio
+A avaliação dos modelos incluiu:
+- Cross Validation  
+- Matriz de confusão  
+- Análise de overfitting  
 
+O objetivo foi comparar desempenho, estabilidade e capacidade de generalização dos modelos.
 
-### IV. Etapas
+---
 
-• Desenvolvimento do script em linguagem R utilizando o RStudio, contendo:
+## 🛠️ Tecnologias Utilizadas
+- Linguagem R  
+- RStudio  
+- Sublime Text  
 
-	• Análise exploratória dos dados.
+---
 
-	• ETL.
+## ▶️ Como Executar o Projeto
+1. Baixar os arquivos disponíveis neste repositório  
+2. Garantir que o R esteja instalado no ambiente  
+3. Abrir o script do projeto no RStudio  
+4. Executar o script para reproduzir as análises e os modelos  
 
-	• Análise Estatística
+---
 
-	• Criação/avaliação dos modelos de machine learning
+## 🧠 Considerações Finais
+O principal foco deste projeto é a aplicação estruturada de **análise estatística** em conjunto com **modelos de machine learning**, destacando a importância da avaliação adequada dos modelos, tão relevante quanto a sua construção.
 
-• Publicação do projeto no GitHub.
+O projeto oferece uma visão ampla das principais técnicas estatísticas utilizadas em análise de dados e reforça boas práticas na validação de modelos preditivos.
 
+---
 
-### V. Considerações
-
-A análise estatística é o foco deste projeto. Aqui é possível obter uma visão ampla das principais técnicas estatísticas aplicadas à análise de dados. Outro ponto de destaque vai para a avaliação de modelos de machine learning, tão ou mais importante que o modelo em si.
-
-### VI. Arquivos do Projeto
-
-Para replicar este projeto, baixe os arquivos dataset_saude.csv e Proj_Saude.R. É necessário ter o R instalado.
+## 👩‍💻 Autora
+**Cláudia Kênia da Silva**  
+Data Analyst | BI & Analytics
